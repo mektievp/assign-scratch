@@ -1,0 +1,42 @@
+<html>
+<head><title>Assign App</title>
+    <link rel='stylesheet' type='text/css' href='css/global.css'>
+    <link rel='icon' href='img/logo-perfect.png'>
+
+</head>
+<body>
+
+    <div class='portal-login'>
+
+        <div align='center'>
+            <a href='index.html'>
+                <img src='img/logo-perfect.png' alt='image' height=100 width=100 align='center'>
+            </a>
+        </div>
+        <form method='post'>
+            <br>Username: <input type='text' class='user-input' name='username'>
+            <br>Password: <input type='password' class='pass-input' name='password'>
+            <br><input type='submit' class='submit' id='login-submit' value='submit' onclick='giveUser(username); givePassword(password);'>
+        </form>
+        <div id='login-message'></div>
+        <div id='your-pass'></div>
+
+    </div>
+
+    <script>
+            document.getElementById('login-message').innerHTML = 'Phillip';
+
+            document.getElementById('login-submit').addEventListener('click', e => e.preventDefault());
+    
+            function giveUser(x) {
+                console.log(x.value);
+                document.getElementById('login-message').innerHTML = x.value;
+            }
+
+            const givePassword = y => {
+                document.getElementById('your-pass').innerHTML = y.value
+            }
+
+    </script>
+</body>
+</html>

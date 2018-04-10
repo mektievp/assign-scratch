@@ -1,0 +1,38 @@
+body {
+    background-color: #396a93;
+}
+
+.portal-container {
+    margin-top: 20;
+}
+
+.portal-login {
+    text-align: center;
+    border: 1px solid black;
+    width: 400;
+    height: 250;
+    margin: auto;
+    margin-top: 150;
+    color: #fbff00;
+    font-family: 'verdana';
+    font-size: 16;
+    padding: 15;
+    display: block;
+}
+
+.user-input {
+    margin: 0 0 5 0;
+}
+
+.pass-input {
+    margin: 0 0 5 0;
+}
+
+.submit-input {
+
+}
+
+.login-message {
+
+}
+
