@@ -20,6 +20,12 @@ body {
     display: block;
 }
 
+.yellow-input {
+    color: #fbff00;
+    font-family: 'verdana';
+    font-size: 16;
+}
+
 .user-input {
     margin: 0 0 5 0;
 }
