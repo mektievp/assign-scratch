@@ -1,6 +1,8 @@
 <html>
 <head><title>Assign App</title>
-    <link rel='stylesheet' type='text/css' href='css/global.css'>
+    <script>
+        document.write('<link rel="stylesheet" type="text/css" href="css/global.css?dev=' + Math.floor(Math.random() * 10000) + '">');
+    </script>
     <link rel='icon' href='img/logo-perfect.png'>
 
 </head>
@@ -23,6 +25,9 @@
 
     </div>
 
-    <script src='js/services/login.js' type='module'></script>
+    <script>
+        document.write('<script src="js/services/login.js?dev=' + Math.floor(Math.random() * 10000) + '" type="module"><\/script>');
+    </script>
+
 </body>
 </html>
